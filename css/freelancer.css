@@ -276,10 +276,6 @@ section.success {
     border-bottom: 1px solid #356499;
 }
 
-.floating-label-form-group placeholder {
-	color: #356499;
-}
-
 .floating-label-form-group input,
 .floating-label-form-group textarea {
     z-index: 1;
