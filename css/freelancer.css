@@ -364,6 +364,27 @@ footer .footer-below {
     outline: 0;
 }
 
+.close-top {
+    z-index: 1049;
+    position: fixed;
+    right: 20px;
+    top: 5px;
+    width: 32px;
+    height: 32px;
+}
+
+.close-top .btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    font-size: 25px;
+	line-height: 0px;
+}
+
+.close-top .btn:focus {
+    outline: 0;
+}
+
 .scroll-top {
     z-index: 1049;
     position: fixed;
@@ -386,7 +407,7 @@ footer .footer-below {
 }
 
 .portfolio-modal .modal-content {
-    padding: 100px 0;
+    padding: 10px 0;
     min-height: 100%;
     border: 0;
     border-radius: 0;
