@@ -376,9 +376,10 @@ footer .footer-below {
 .close-top .btn {
     width: 32px;
     height: 32px;
-    border-radius: 100%;
+    border-radius: 30%;
     font-size: 25px;
-	line-height: 0px;
+	line-height: 8px;
+	text-indent: -9px;
 }
 
 .close-top .btn:focus {
