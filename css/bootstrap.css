@@ -5890,9 +5890,9 @@ button.close {
   top: 0;
   left: 0;
   bottom: 0;
-  width: 15%;
-  opacity: 0.5;
-  filter: alpha(opacity=50);
+  width: 5%;
+  opacity: 0.25;
+  filter: alpha(opacity=25);
   font-size: 20px;
   color: #bcc9d6;
   text-align: center;
@@ -5919,8 +5919,8 @@ button.close {
   outline: 0;
   color: #bcc9d6;
   text-decoration: none;
-  opacity: 0.9;
-  filter: alpha(opacity=90);
+  opacity: 0.5;
+  filter: alpha(opacity=50);
 }
 .carousel-control .icon-prev,
 .carousel-control .icon-next,
@@ -5961,6 +5961,7 @@ button.close {
   z-index: 15;
   width: 60%;
   margin-left: -30%;
+  margin-bottom: -20px;
   padding-left: 0;
   list-style: none;
   text-align: center;
@@ -5991,6 +5992,7 @@ button.close {
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
+  margin-bottom: -45px;
   color: #bcc9d6;
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
