@@ -172,6 +172,10 @@ header .intro-text .skills {
 section {
     padding: 100px 0;
 }
+#about {
+    padding-bottom: 100px;
+	padding-top: 200px;
+}
 
 section h2 {
     margin: 0;
@@ -187,6 +191,11 @@ section.success {
     section {
         padding: 75px 0;
     }
+	
+	#about {
+    padding-bottom: 50px;
+	padding-top: 100px;
+	}
 
     section.first {
         padding-top: 75px;
@@ -252,9 +261,9 @@ section.success {
 
 .btn-outline {
     margin-top: 15px;
-    border: solid 2px #dadada;
+    border: solid 2px #919191;
     font-size: 20px;
-    color: #dadada;
+    color: #919191;
     background: 0 0;
     transition: all .3s ease-in-out;
 }
@@ -263,8 +272,8 @@ section.success {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    border: solid 2px #dadada;
-    color: #919191;
+    border: solid 2px #191919;
+    color: #191919;
     background: #dadada;
 }
 
