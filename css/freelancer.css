@@ -190,6 +190,9 @@ section h2 {
 	padding-left: 1%;
 	margin-bottom: 3%;
 }
+section h3 {
+      margin-top: 2px;
+}
 
 section.success {
     color: #dadada;
@@ -269,10 +272,10 @@ section.success {
 }
 
 .btn-outline {
-    margin-top: 15px;
-    border: solid 2px #919191;
+    margin-bottom: 20px;
+    border: solid 2px #191919;
     font-size: 20px;
-    color: #919191;
+    color: #191919;
     background: 0 0;
     transition: all .3s ease-in-out;
 }
@@ -281,8 +284,8 @@ section.success {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    border: solid 2px #191919;
-    color: #191919;
+    border: solid 2px #919191;
+    color: #919191;
     background: #dadada;
 }
 
